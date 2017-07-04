@@ -139,16 +139,7 @@
     <ClCompile Include="Enemy_Boss_Cannon.cpp">
       <Filter>Enemies</Filter>
     </ClCompile>
-    <ClCompile Include="Enemy_Mine.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
     <ClCompile Include="ModuleGroundEnemies.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Train_Locomotive.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Train_Coach.cpp">
       <Filter>Enemies</Filter>
     </ClCompile>
   </ItemGroup>
@@ -306,16 +297,7 @@
     <ClInclude Include="Enemy_Boss_Cannon.h">
       <Filter>Enemies</Filter>
     </ClInclude>
-    <ClInclude Include="Enemy_Mine.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
     <ClInclude Include="ModuleGroundEnemies.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Train_Locomotive.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Train_Coach.h">
       <Filter>Enemies</Filter>
     </ClInclude>
   </ItemGroup>

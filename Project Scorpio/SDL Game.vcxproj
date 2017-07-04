@@ -86,11 +86,8 @@
     <ClInclude Include="Enemy_Long_Megatank.h" />
     <ClInclude Include="Enemy_Medium_Shooter.h" />
     <ClInclude Include="Enemy_Megatank.h" />
-    <ClInclude Include="Enemy_Mine.h" />
     <ClInclude Include="Enemy_Ship.h" />
     <ClInclude Include="Enemy_Ship_Tank.h" />
-    <ClInclude Include="Enemy_Train_Coach.h" />
-    <ClInclude Include="Enemy_Train_Locomotive.h" />
     <ClInclude Include="Globals.h" />
     <ClInclude Include="Animation.h" />
     <ClInclude Include="Enemy_Light_Shooter_Kamikaze.h" />
@@ -142,11 +139,8 @@
     <ClCompile Include="Enemy_Long_Megatank.cpp" />
     <ClCompile Include="Enemy_Medium_Shooter.cpp" />
     <ClCompile Include="Enemy_Megatank.cpp" />
-    <ClCompile Include="Enemy_Mine.cpp" />
     <ClCompile Include="Enemy_Ship.cpp" />
     <ClCompile Include="Enemy_Ship_Tank.cpp" />
-    <ClCompile Include="Enemy_Train_Coach.cpp" />
-    <ClCompile Include="Enemy_Train_Locomotive.cpp" />
     <ClCompile Include="Globals.cpp" />
     <ClCompile Include="Enemy_Light_Shooter_Kamikaze.cpp" />
     <ClCompile Include="Main.cpp" />
