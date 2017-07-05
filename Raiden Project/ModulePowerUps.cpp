@@ -6,10 +6,6 @@
 #include "ModuleParticles.h"
 #include "ModuleTextures.h"
 #include "PowerUp.h"
-#include "RedUp.h"
-#include "BlueUp.h"
-#include "Medals.h"
-#include "MissileUp.h"
 #include "ModulePlayer.h"
 #include "ModulePlayer2.h"
 #include "ModuleMap1.h"
@@ -131,18 +127,9 @@ void ModulePowerUps::SpawnPowerUp(const PowerUpInfo& info)
 	{
 		switch (info.type)
 		{
-		case POWERUP_TYPES::REDUP:
+		/*case POWERUP_TYPES::REDUP:
 			powerups[i] = new RedUp(info.x, info.y);
-			break;
-		case POWERUP_TYPES::MEDAL:
-			powerups[i] = new Medals(info.x, info.y);
-			break;
-		case POWERUP_TYPES::BLUEUP:
-			powerups[i] = new BlueUp(info.x, info.y);
-			break;
-		case POWERUP_TYPES::MISSILEUP:
-			powerups[i] = new MissileUp(info.x, info.y);
-			break;
+			break;*/
 		}
 	}
 }
@@ -334,12 +321,9 @@ void ModulePowerUps::Switch()
 
 			switch (info.type)
 			{
-			case POWERUP_TYPES::REDUP:
+			/*case POWERUP_TYPES::REDUP:
 				powerups[i] = new RedUp(info.x, info.y, info.centerx, info.centery, info.angle, false);
-				break;
-			case POWERUP_TYPES::BLUEUP:
-				powerups[i] = new BlueUp(info.x, info.y, info.centerx, info.centery, info.angle, false);
-				break;
+				break;*/
 			}
 		}
 	}

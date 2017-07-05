@@ -71,28 +71,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
-    <ClInclude Include="Box_Medal.h" />
-    <ClInclude Include="BlueUp.h" />
-    <ClInclude Include="Box_PowerUp.h" />
     <ClInclude Include="Enemy.h" />
-    <ClInclude Include="Enemy_Bonus_Ship.h" />
-    <ClInclude Include="Enemy_Boss_Cannon.h" />
-    <ClInclude Include="Enemy_Boss_Left_Wing.h" />
-    <ClInclude Include="Enemy_Boss_Main.h" />
-    <ClInclude Include="Enemy_Boss_Right_Wing.h" />
-    <ClInclude Include="Enemy_Grey_Tank.h" />
-    <ClInclude Include="Enemy_Kamikaze.h" />
-    <ClInclude Include="Enemy_Light_Shooter.h" />
-    <ClInclude Include="Enemy_Long_Megatank.h" />
-    <ClInclude Include="Enemy_Medium_Shooter.h" />
-    <ClInclude Include="Enemy_Megatank.h" />
-    <ClInclude Include="Enemy_Ship.h" />
-    <ClInclude Include="Enemy_Ship_Tank.h" />
     <ClInclude Include="Globals.h" />
     <ClInclude Include="Animation.h" />
-    <ClInclude Include="Enemy_Light_Shooter_Kamikaze.h" />
-    <ClInclude Include="MissileUp.h" />
-    <ClInclude Include="Medals.h" />
     <ClInclude Include="ModuleEnemies.h" />
     <ClInclude Include="ModuleFonts.h" />
     <ClInclude Include="ModuleGroundEnemies.h" />
@@ -119,32 +100,12 @@
     <ClInclude Include="ModuleWindow.h" />
     <ClInclude Include="ModuleWelcomeScreen.h" />
     <ClInclude Include="PowerUp.h" />
-    <ClInclude Include="RedUp.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="Tank.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
-    <ClCompile Include="Box_Medal.cpp" />
-    <ClCompile Include="BlueUp.cpp" />
-    <ClCompile Include="Box_PowerUp.cpp" />
-    <ClCompile Include="Enemy_Bonus_Ship.cpp" />
-    <ClCompile Include="Enemy_Boss_Cannon.cpp" />
-    <ClCompile Include="Enemy_Boss_Left_Wing.cpp" />
-    <ClCompile Include="Enemy_Boss_Main.cpp" />
-    <ClCompile Include="Enemy_Boss_Right_Wing.cpp" />
-    <ClCompile Include="Enemy_Grey_Tank.cpp" />
-    <ClCompile Include="Enemy_Kamikaze.cpp" />
-    <ClCompile Include="Enemy_Light_Shooter.cpp" />
-    <ClCompile Include="Enemy_Long_Megatank.cpp" />
-    <ClCompile Include="Enemy_Medium_Shooter.cpp" />
-    <ClCompile Include="Enemy_Megatank.cpp" />
-    <ClCompile Include="Enemy_Ship.cpp" />
-    <ClCompile Include="Enemy_Ship_Tank.cpp" />
     <ClCompile Include="Globals.cpp" />
-    <ClCompile Include="Enemy_Light_Shooter_Kamikaze.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Medals.cpp" />
     <ClCompile Include="ModuleAudio_1.cpp" />
     <ClCompile Include="ModuleAudio_2.cpp" />
     <ClCompile Include="ModuleCollision.cpp" />
@@ -168,9 +129,6 @@
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="ModuleShadows.cpp" />
     <ClCompile Include="PowerUp.cpp" />
-    <ClCompile Include="RedUp.cpp" />
-    <ClCompile Include="MissileUp.cpp" />
-    <ClCompile Include="Tank.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="SDL3 Handout.rc" />

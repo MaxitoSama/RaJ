@@ -4,40 +4,7 @@
     <ClCompile Include="Application.cpp">
       <Filter>Other things</Filter>
     </ClCompile>
-    <ClCompile Include="BlueUp.cpp">
-      <Filter>Powerups</Filter>
-    </ClCompile>
-    <ClCompile Include="Box_Medal.cpp">
-      <Filter>Powerups</Filter>
-    </ClCompile>
-    <ClCompile Include="Box_PowerUp.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
     <ClCompile Include="Enemy.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Bonus_Ship.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Kamikaze.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Light_Shooter.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Light_Shooter_Kamikaze.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Long_Megatank.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Medium_Shooter.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Ship.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Ship_Tank.cpp">
       <Filter>Enemies</Filter>
     </ClCompile>
     <ClCompile Include="Globals.cpp">
@@ -46,16 +13,7 @@
     <ClCompile Include="Main.cpp">
       <Filter>Other things</Filter>
     </ClCompile>
-    <ClCompile Include="Medals.cpp">
-      <Filter>Powerups</Filter>
-    </ClCompile>
-    <ClCompile Include="MissileUp.cpp">
-      <Filter>Powerups</Filter>
-    </ClCompile>
     <ClCompile Include="ModulePowerUps.cpp">
-      <Filter>Powerups</Filter>
-    </ClCompile>
-    <ClCompile Include="RedUp.cpp">
       <Filter>Powerups</Filter>
     </ClCompile>
     <ClCompile Include="PowerUp.cpp">
@@ -115,28 +73,7 @@
     <ClCompile Include="ModuleAudio_1.cpp">
       <Filter>Modules</Filter>
     </ClCompile>
-    <ClCompile Include="Tank.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
     <ClCompile Include="ModuleEnemies.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Megatank.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Grey_Tank.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Boss_Main.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Boss_Left_Wing.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Boss_Right_Wing.cpp">
-      <Filter>Enemies</Filter>
-    </ClCompile>
-    <ClCompile Include="Enemy_Boss_Cannon.cpp">
       <Filter>Enemies</Filter>
     </ClCompile>
     <ClCompile Include="ModuleGroundEnemies.cpp">
@@ -150,55 +87,13 @@
     <ClInclude Include="Application.h">
       <Filter>Other things</Filter>
     </ClInclude>
-    <ClInclude Include="BlueUp.h">
-      <Filter>Powerups</Filter>
-    </ClInclude>
-    <ClInclude Include="Box_Medal.h">
-      <Filter>Powerups</Filter>
-    </ClInclude>
-    <ClInclude Include="Box_PowerUp.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
     <ClInclude Include="Enemy.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Bonus_Ship.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Kamikaze.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Light_Shooter.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Light_Shooter_Kamikaze.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Long_Megatank.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Medium_Shooter.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Ship.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Ship_Tank.h">
       <Filter>Enemies</Filter>
     </ClInclude>
     <ClInclude Include="Globals.h">
       <Filter>Other things</Filter>
     </ClInclude>
-    <ClInclude Include="Medals.h">
-      <Filter>Powerups</Filter>
-    </ClInclude>
-    <ClInclude Include="MissileUp.h">
-      <Filter>Powerups</Filter>
-    </ClInclude>
     <ClInclude Include="ModulePowerUps.h">
-      <Filter>Powerups</Filter>
-    </ClInclude>
-    <ClInclude Include="RedUp.h">
       <Filter>Powerups</Filter>
     </ClInclude>
     <ClInclude Include="PowerUp.h">
@@ -273,28 +168,7 @@
     <ClInclude Include="ModuleAudio_1.h">
       <Filter>Modules</Filter>
     </ClInclude>
-    <ClInclude Include="Tank.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
     <ClInclude Include="ModuleEnemies.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Megatank.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Grey_Tank.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Boss_Main.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Boss_Left_Wing.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Boss_Right_Wing.h">
-      <Filter>Enemies</Filter>
-    </ClInclude>
-    <ClInclude Include="Enemy_Boss_Cannon.h">
       <Filter>Enemies</Filter>
     </ClInclude>
     <ClInclude Include="ModuleGroundEnemies.h">

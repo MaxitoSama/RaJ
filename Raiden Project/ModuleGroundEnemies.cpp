@@ -5,27 +5,9 @@
 #include "ModuleParticles.h"
 #include "ModuleTextures.h"
 #include "Enemy.h"
-#include "Enemy_Light_Shooter.h"
-#include "Enemy_Medium_Shooter.h"
-#include "Enemy_Bonus_Ship.h"
-#include "Tank.h"
-#include "Turret.h"
 #include "ModulePowerUps.h"
-#include "Box_Medal.h"
-#include "Box_PowerUp.h"
 #include "ModuleMap1.h"
-#include "Enemy_Kamikaze.h"
-#include "Enemy_Ship_Tank.h"
-#include "Enemy_Long_Megatank.h"
-#include "Enemy_Ship.h"
 #include "ModuleGroundExplosion.h"
-#include "Enemy_Light_Shooter_Kamikaze.h"
-#include "Enemy_Megatank.h"
-#include "Enemy_Grey_Tank.h"
-#include "Enemy_Boss_Main.h"
-#include "Enemy_Boss_Left_Wing.h"
-#include "Enemy_Boss_Right_Wing.h"
-#include "Enemy_Boss_Cannon.h"
 #include "ModuleAudio_2.h"
 
 #define SPAWN_MARGIN 100
@@ -83,19 +65,19 @@ update_status ModuleGroundEnemies::Update()
 	for (uint i = 0; i < MAX_GROUND_ENEMIES; ++i)
 		if (enemies[i] != nullptr)
 		{
-			if (enemies[i]->spritesheet == 9) //Megatank
+			if (enemies[i]->spritesheet == 9) 
 				enemies[i]->Draw(sprites10);
-			else if (enemies[i]->spritesheet == 1) //Bonus Ship
+			else if (enemies[i]->spritesheet == 1) 
 				enemies[i]->Draw(sprites2);
-			else if (enemies[i]->spritesheet == 2) //Tank & Ship_Tank
+			else if (enemies[i]->spritesheet == 2) 
 				enemies[i]->Draw(sprites3);
-			else if (enemies[i]->spritesheet == 4) //Box_Medal & Box_PowerUp
+			else if (enemies[i]->spritesheet == 4) 
 				enemies[i]->Draw(sprites5);
-			else if (enemies[i]->spritesheet == 6) //Long Megatank
+			else if (enemies[i]->spritesheet == 6) 
 				enemies[i]->Draw(sprites7);
-			else if (enemies[i]->spritesheet == 7) //Ship
+			else if (enemies[i]->spritesheet == 7) 
 				enemies[i]->Draw(sprites8);
-			else if (enemies[i]->spritesheet == 8) //Train
+			else if (enemies[i]->spritesheet == 8) 
 				enemies[i]->Draw(sprites13);
 			
 		}
@@ -172,30 +154,9 @@ void ModuleGroundEnemies::SpawnGroundEnemy(const GroundEnemyInfo& info)
 		switch (info.type)
 		{
 			
-		case GENEMY_TYPES::TANK:
+		/*case GENEMY_TYPES::TANK:
 			enemies[i] = new Tank(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case GENEMY_TYPES::GREY_TANK:
-			enemies[i] = new Enemy_Grey_Tank(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case GENEMY_TYPES::SHIP_TANK:
-			enemies[i] = new Enemy_Ship_Tank(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case GENEMY_TYPES::SHIP:
-			enemies[i] = new Enemy_Ship(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case GENEMY_TYPES::LONG_MEGATANK:
-			enemies[i] = new Enemy_Long_Megatank(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case GENEMY_TYPES::MEGATANK:
-			enemies[i] = new Enemy_Megatank(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case GENEMY_TYPES::BOX_MEDAL:
-			enemies[i] = new Box_Medal(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case GENEMY_TYPES::BOX_POWERUP:
-			enemies[i] = new Box_PowerUp(App->map_1->xmap + info.x, info.y, info._path);
-			break;
+			break;*/
 		}
 	}
 }

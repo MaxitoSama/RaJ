@@ -5,27 +5,9 @@
 #include "ModuleParticles.h"
 #include "ModuleTextures.h"
 #include "Enemy.h"
-#include "Enemy_Light_Shooter.h"
-#include "Enemy_Medium_Shooter.h"
-#include "Enemy_Bonus_Ship.h"
-#include "Tank.h"
-#include "Turret.h"
 #include "ModulePowerUps.h"
-#include "Box_Medal.h"
-#include "Box_PowerUp.h"
 #include "ModuleMap1.h"
-#include "Enemy_Kamikaze.h"
-#include "Enemy_Ship_Tank.h"
-#include "Enemy_Long_Megatank.h"
-#include "Enemy_Ship.h"
 #include "ModuleGroundExplosion.h"
-#include "Enemy_Light_Shooter_Kamikaze.h"
-#include "Enemy_Megatank.h"
-#include "Enemy_Grey_Tank.h"
-#include "Enemy_Boss_Main.h"
-#include "Enemy_Boss_Left_Wing.h"
-#include "Enemy_Boss_Right_Wing.h"
-#include "Enemy_Boss_Cannon.h"
 #include "ModuleAudio_2.h"
 #define SPAWN_MARGIN 100
 
@@ -86,27 +68,27 @@ update_status ModuleEnemies::Update()
 	for (uint i = 0; i < MAX_ENEMIES; ++i)
 		if (enemies[i] != nullptr) 
 		{ 
-			if (enemies[i]->spritesheet == 0) //Light Shooter
+			if (enemies[i]->spritesheet == 0) 
 				enemies[i]->Draw(sprites);
-			else if (enemies[i]->spritesheet == 1) //Bonus Ship
+			else if (enemies[i]->spritesheet == 1) 
 				enemies[i]->Draw(sprites2);
-			else if (enemies[i]->spritesheet == 2) //Tank & Ship_Tank
+			else if (enemies[i]->spritesheet == 2) 
 				enemies[i]->Draw(sprites3);
-			else if (enemies[i]->spritesheet == 3) //Medium Shooter
+			else if (enemies[i]->spritesheet == 3) 
 				enemies[i]->Draw(sprites4);
-			else if (enemies[i]->spritesheet == 4) //Box_Medal & Box_PowerUp
+			else if (enemies[i]->spritesheet == 4) 
 				enemies[i]->Draw(sprites5);
-			else if (enemies[i]->spritesheet == 5) //Kamikaze
+			else if (enemies[i]->spritesheet == 5) 
 				enemies[i]->Draw(sprites6);
-			else if (enemies[i]->spritesheet == 6) //Long Megatank
+			else if (enemies[i]->spritesheet == 6) 
 				enemies[i]->Draw(sprites7);
-			else if (enemies[i]->spritesheet == 7) //Ship
+			else if (enemies[i]->spritesheet == 7) 
 				enemies[i]->Draw(sprites8);
-			else if (enemies[i]->spritesheet == 8) //Light Shooter Kamikaze
+			else if (enemies[i]->spritesheet == 8) 
 				enemies[i]->Draw(sprites9);
-			else if (enemies[i]->spritesheet == 10) //Boss
+			else if (enemies[i]->spritesheet == 10) 
 				enemies[i]->Draw(sprites11);
-			else if (enemies[i]->spritesheet == 11) //Mine
+			else if (enemies[i]->spritesheet == 11) 
 				enemies[i]->Draw(sprites12);
         }
 	return UPDATE_CONTINUE;
@@ -181,42 +163,9 @@ void ModuleEnemies::SpawnEnemy(const EnemyInfo& info)
 	{
 		switch (info.type)
 		{
-		case ENEMY_TYPES::LIGHT_SHOOTER:
+		/*case ENEMY_TYPES::LIGHT_SHOOTER:
 			enemies[i] = new Enemy_Light_Shooter(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case ENEMY_TYPES::BOSS_MAIN:
-			enemies[i] = new Enemy_Boss_Main(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case ENEMY_TYPES::BOSS_CANNON:
-			enemies[i] = new Enemy_Boss_Cannon(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case ENEMY_TYPES::BOSS_LEFT_WING:
-			enemies[i] = new Enemy_Boss_Left_Wing(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case ENEMY_TYPES::BOSS_RIGHT_WING:
-			enemies[i] = new Enemy_Boss_Right_Wing(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case ENEMY_TYPES::KAMIKAZE:
-			enemies[i] = new Enemy_Kamikaze(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case ENEMY_TYPES::BONUS_SHIP:
-			enemies[i] = new Enemy_Bonus_Ship(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case ENEMY_TYPES::MEDIUM_SHOOTER:
-			enemies[i] = new Enemy_Medium_Shooter(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case ENEMY_TYPES::LIGHT_KAMIKAZE:
-			bool come_right;
-			if (info.x < 500)
-			{
-				come_right = true;
-			}
-			else
-			{
-				come_right = false;
-			}
-			enemies[i] = new Light_Shooter_Kamikaze(info.x, info.y, info._path, come_right);
-			break;
+			break;*/
 		}
 	}
 }
