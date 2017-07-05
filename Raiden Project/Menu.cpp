@@ -54,6 +54,10 @@ update_status Menu::Update()
 
 	App->fonts->BlitText(220, 760, font, insert_coin);
 		
+	if (App->input->keyboard[SDL_SCANCODE_SPACE] == KEY_STATE::KEY_DOWN)
+	{
+		App->fade->FadeToBlack(this, App->map_1);
+	}
 	return UPDATE_CONTINUE;
 }
 

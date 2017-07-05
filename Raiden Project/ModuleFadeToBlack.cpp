@@ -199,7 +199,7 @@ bool ModuleFadeToBlack::FadeToBlack(Module* module_off, Module* module_on)
 
 		current_step = fade_step::fade_to_black;
 		start_time = SDL_GetTicks();
-		total_time = 710;
+		total_time = 0;
 		module_off1 = module_off;
 		module_on1 = module_on;
 		plates.Reset();
