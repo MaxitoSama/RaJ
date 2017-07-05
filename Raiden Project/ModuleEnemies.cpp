@@ -26,7 +26,6 @@
 #include "Enemy_Boss_Left_Wing.h"
 #include "Enemy_Boss_Right_Wing.h"
 #include "Enemy_Boss_Cannon.h"
-#include "Enemy_Mine.h"
 #include "ModuleAudio_2.h"
 #define SPAWN_MARGIN 100
 
@@ -218,10 +217,6 @@ void ModuleEnemies::SpawnEnemy(const EnemyInfo& info)
 			}
 			enemies[i] = new Light_Shooter_Kamikaze(info.x, info.y, info._path, come_right);
 			break;
-		case ENEMY_TYPES::MINE:
-			enemies[i] = new Enemy_Mine(info.x, info.y, info._path);
-			break;
-
 		}
 	}
 }

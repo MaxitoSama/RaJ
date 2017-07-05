@@ -26,8 +26,6 @@
 #include "Enemy_Boss_Left_Wing.h"
 #include "Enemy_Boss_Right_Wing.h"
 #include "Enemy_Boss_Cannon.h"
-#include "Enemy_Train_Locomotive.h"
-#include "Enemy_Train_Coach.h"
 #include "ModuleAudio_2.h"
 
 #define SPAWN_MARGIN 100
@@ -197,12 +195,6 @@ void ModuleGroundEnemies::SpawnGroundEnemy(const GroundEnemyInfo& info)
 			break;
 		case GENEMY_TYPES::BOX_POWERUP:
 			enemies[i] = new Box_PowerUp(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case GENEMY_TYPES::TRAIN_LOCOMOTIVE:
-			enemies[i] = new Enemy_Train_Locomotive(App->map_1->xmap + info.x, info.y, info._path);
-			break;
-		case GENEMY_TYPES::TRAIN_COACH:
-			enemies[i] = new Enemy_Train_Coach(App->map_1->xmap + info.x, info.y, info._path);
 			break;
 		}
 	}
