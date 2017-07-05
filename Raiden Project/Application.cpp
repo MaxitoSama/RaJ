@@ -7,7 +7,7 @@
 #include "ModuleMap1.h"
 #include "ModuleMap2.h"
 #include "ModuleAudio_2.h"
-#include "ModuleWelcomeScreen.h"
+#include "Menu.h"
 #include "ModuleStageClear1.h"
 #include "ModuleFadeToBlack.h"
 #include "ModulePlayer.h"
@@ -31,7 +31,7 @@ Application::Application()
 	modules[4] = input = new ModuleInput();
 	modules[5] = audio_2 = new ModuleAudio2();
 	modules[6] = map_1 = new ModuleMap1();
-	modules[7] = WelcomeScreen = new ModuleWelcomeScreen();
+	modules[7] = WelcomeScreen = new Menu();
 	modules[8] = StageClear1 = new ModuleStageClear1();
 	modules[9] = fade = new ModuleFadeToBlack();	
 	modules[10] = gexplosion = new ModuleGroundExplosion();

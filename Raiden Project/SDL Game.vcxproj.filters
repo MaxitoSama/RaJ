@@ -25,9 +25,6 @@
     <ClCompile Include="ModuleWindow.cpp">
       <Filter>Modules</Filter>
     </ClCompile>
-    <ClCompile Include="ModuleWelcomeScreen.cpp">
-      <Filter>Modules</Filter>
-    </ClCompile>
     <ClCompile Include="ModuleStageClear1.cpp">
       <Filter>Modules</Filter>
     </ClCompile>
@@ -79,6 +76,9 @@
     <ClCompile Include="ModuleGroundEnemies.cpp">
       <Filter>Enemies</Filter>
     </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation.h">
@@ -115,9 +115,6 @@
       <Filter>Other things</Filter>
     </ClInclude>
     <ClInclude Include="ModuleWindow.h">
-      <Filter>Modules</Filter>
-    </ClInclude>
-    <ClInclude Include="ModuleWelcomeScreen.h">
       <Filter>Modules</Filter>
     </ClInclude>
     <ClInclude Include="ModuleTextures.h">
@@ -173,6 +170,9 @@
     </ClInclude>
     <ClInclude Include="ModuleGroundEnemies.h">
       <Filter>Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Modules</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

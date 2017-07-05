@@ -9,7 +9,7 @@
 #include "ModulePlayer.h"
 #include "ModulePlayer2.h"
 #include "ModuleFonts.h"
-#include "ModuleWelcomeScreen.h"
+#include "Menu.h"
 #include <stdio.h>
 
 ModuleFadeToBlack::ModuleFadeToBlack()

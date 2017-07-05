@@ -3,7 +3,7 @@
 #include "ModuleMap2.h"
 #include "ModuleRender.h"
 #include "ModuleTextures.h"
-#include "ModuleWelcomeScreen.h"
+#include "Menu.h"
 #include "ModuleInput.h"
 #include "ModuleAudio_1.h"
 #include "ModuleAudio_2.h"

@@ -7,11 +7,11 @@
 #pragma comment( lib, "SDL/libx86/SDL2main.lib" )
 
 
-class ModuleWelcomeScreen : public Module
+class Menu : public Module
 {
 public:
-	ModuleWelcomeScreen();
-	~ModuleWelcomeScreen();
+	Menu();
+	~Menu();
 
 	bool Init();
 	update_status Update();

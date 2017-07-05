@@ -14,7 +14,7 @@ class ModuleMap1;
 class ModuleMap2;
 class ModuleAudio1;
 class ModuleAudio2;
-class ModuleWelcomeScreen;
+class Menu;
 class ModuleStageClear1;
 class ModuleFadeToBlack;
 class ModulePlayer;
@@ -42,7 +42,7 @@ public:
 	ModuleMap2* map_2;
 	ModuleAudio2* audio_2;
 
-	ModuleWelcomeScreen* WelcomeScreen;
+	Menu* WelcomeScreen;
 	ModuleStageClear1* StageClear1;
 	ModuleFadeToBlack* fade;
 	ModulePlayer* player;

@@ -11,7 +11,7 @@
 #include "ModuleMap2.h"
 #include "ModuleCollision.h"
 #include "ModuleFadeToBlack.h"
-#include "ModuleWelcomeScreen.h"
+#include "Menu.h"
 #include "ModuleEnemies.h"
 #include "ModuleFonts.h"
 #include "ModuleShadows.h"

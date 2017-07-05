@@ -1,7 +1,7 @@
 #include "Globals.h"
 #include "Application.h"
 #include "ModuleMap2.h"
-#include "ModuleWelcomeScreen.h"
+#include "Menu.h"
 #include "ModuleRender.h"
 #include "ModuleTextures.h"
 #include "ModuleMap1.h"
