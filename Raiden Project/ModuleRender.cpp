@@ -44,7 +44,7 @@ bool ModuleRender::Init()
 // Called every draw update
 update_status ModuleRender::PreUpdate()
 {
-	SDL_SetRenderDrawColor(App->render->renderer,0, 0, 0, 255);
+	SDL_SetRenderDrawColor(App->render->renderer,0, 255, 0, 255);
 
 	if (SDL_RenderClear(App->render->renderer) == -1)
 	{
@@ -102,8 +102,6 @@ bool ModuleRender::Blit(SDL_Texture* texture, float x, float y, SDL_Rect* sectio
 		rect.w = w;
 		rect.h = h;
 	}
-    
-	SDL_RenderSetLogicalSize(renderer, 672, 830);
 
 	if (SDL_RenderCopy(renderer, texture, section, &rect) != 0)
 	{

@@ -33,22 +33,16 @@ ModuleMap1::~ModuleMap1()
 bool ModuleMap1::Init()
 {
 	LOG("Loading background assets");
-	ground = { 0, 0, 900, 600 };
-	buildings = { 0, 0, 352 * 3, 5362 * 3 };
-	road = { 0, 0, 352*3 , 5362 * 3 };
+	ground = { 0, 0, 1000, 1000 };
 	Map1 = App->textures->Load("Assets/jeje.png");
-    Road = App->textures->Load("Assets/Roads.png");
-	Buildings = App->textures->Load("Assets/Buildings.png");
+  
 	
 	return true;
 }
 
 update_status ModuleMap1::Update()
 {
-	App->render->Blit(Map1, 0, 0, &ground);
-	App->render->Blit(Buildings, xmap, ymap, &buildings);
-	App->render->Blit(Road, xmap, yroad, &road);
-
+	App->render->Blit(Map1, -200, 0, &ground,0,0);
 
 	//Reset to chechpoint
 	/*if (reset_collision && !initial_dead_time_got)
